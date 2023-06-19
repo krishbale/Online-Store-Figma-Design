@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className="flex-1">
         <div className="flex justify-between  ">
             <div className="">
-            <h1 className="text-2xl lg:p-4 font-bold lg:text-3xl">TechAxis Online Store </h1>
+            <h1 className=" lg:p-4 font-bold text-xl md:text-2xl lg:text-3xl">TechAxis Online Store </h1>
 
             </div>
             <div className="lg:hidden">

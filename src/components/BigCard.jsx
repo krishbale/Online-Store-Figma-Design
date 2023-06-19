@@ -8,7 +8,7 @@ const BigCard = () => {
         <div>
           <img  className='' src={vegetable} alt="vegetable" />
           <div className="flex flex-col">
-          <p className='p-1 m-1 text-center text-3xl'>Vegetable</p>
+          <p className='p-1 m-1 text-center text-xl md:text-2xl lg:text-3xl'>Vegetable</p>
           <div className=" flex justify-center items-center">
           <button className='landingbutton p-4 '>Shop Now</button>  
 
@@ -22,7 +22,7 @@ const BigCard = () => {
         <div>
           <img src={fruit} className='' alt="vegetable" />
           <div className="flex flex-col">
-          <p className='p-1 m-1 text-center text-3xl '>Fruit</p>
+          <p className='p-1 m-1 text-center text-xl md:text-2xl lg:text-3xl '>Fruit</p>
           <div className=" flex justify-center items-center">
           <button className='landingbutton p-4 '>Shop Now</button>  
 
