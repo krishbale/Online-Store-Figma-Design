@@ -18,8 +18,19 @@
     text-decoration: none;
   
   }
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
+  h1,h2,h3,p,ul,li,a{
+    @apply font-mono
+}
+.bg {
+    @apply bg-[url('src/assets/bg.png')] h-[860px]
+}
+
+.landingbutton{
+    @apply bg-red-500 rounded-md hover:from-pink-500 hover:to-yellow-500
+}
+
+
+
+.m400{
+    @apply mx-[400px] 
+}

@@ -1,3 +1,4 @@
+import searhbar from '../assets/searchbar.png'
 import hamburger from "../assets/hamburger.svg"
 const MenuItems = ()=>{
     return(
@@ -35,13 +36,14 @@ const MobileBar = ()=>{
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="m400">
         <MobileBar />
 
         {/* diviion for login and sign up */}
        <div className="hidden lg:flex items-end justify-end">
         <div className="flex">
-            <p>Sign IN | </p>
+            <p>Sign In  </p>
+            <p className='px-2'> | </p>
             <p>Create Account</p>
         </div>
         </div>
@@ -49,16 +51,21 @@ const Navbar = () => {
         
           {/* divison for Search Bar and Title */}
         <div className=" flex  ">
-            <div className=" hidden lg:flex ">
-            <input type="text" placeholder="Search Products" />
+            <div className=" hidden   lg:flex lg:flex-row lg:items-center  lg:justify-center ">
+                <div className="px-2">
+                <img src={searhbar} alt="" />
+
+                </div>
+            <input className="border-none outline-none" type="text" placeholder={`  Search Products`}/>
             </div>
            
            
 
        
         <div className="flex-1">
-        <div className="flex justify-between lg:justify-center  lg:items-center ">
-                <h1 className="text-3xl">Some Ecommerce </h1>
+        <div className="flex  ">
+
+                <h1 className="p-4   font-bold text-3xl">TechAxis Online Store </h1>
                 <div className="lg:hidden">
                 <img src={hamburger} alt="hamburger" />
             </div>
