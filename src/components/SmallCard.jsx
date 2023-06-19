@@ -11,46 +11,62 @@ const SmallCard = () => {
         <h1>Fruits</h1>
       </div>
       {/* cards */}
-      <div className='flex'>
-        <div className='p-4   '>
-          <img src={Apple} alt="" />
-          <div className="border-[1px] rounded-md border-[#C4C4C4]">
-          <p className='pt-2 pl-2'>Apple</p>
-          <p className='px-2'>$20</p>
-          <div className=" p-4 m border-y-[1px]  border-[#C4C4C4] text-center">
-          <p>Add to Cart</p>
-          </div>
-          </div>
-        </div>
-        <div className='p-4   '>
-          <img src={Banana} alt="" />
-          <div className=" border-[1px] rounded-md border-[#C4C4C4]">
-          <p className='pt-2 pl-2'>Banana</p>
-          <p className='px-2'>$20</p>
-          <div className=" p-4 m border-y-[1px]  border-[#C4C4C4] text-center">
-          <p>Add to Cart</p>
-          </div>
-          </div>
-        </div>
-        <div className='p-4   '>
-          <img src={Guava} alt="" />
-          <div className=" border-[1px] rounded-md border-[#C4C4C4]">
-          <p className='pt-2 pl-2'>Guava                    </p>
-          <p className='px-2'>$20</p>
-          <div className=" p p-4 m border-y-[1px]  border-[#C4C4C4] text-center">
-          <p>Add to Cart</p>
-          </div>
-          </div>
-        </div>
-        <div className='p-4 text-sm  '>
-          <img src={Strawberry} alt="" />
-          <div className=" border-[1px] rounded-md border-[#C4C4C4]">
+      <div className='grid grid-cols-1 sm:grid-cols2 md:grid-cols-2 lg:grid-cols-4'>
+      <div className='p-4 text-sm   '>
+          
+          <img className='w-full border-b-[1px]  rounded-sm border-[#C4C4C4]' src={Strawberry} alt="" />
+
+          
+          <div className="  border-[1px]  border-[#C4C4C4]  ">
           <p className='pt-2 pl-2'>Strawberry</p>
           <p className='px-2'>$20</p>
-          <div className=" p-4 m border-y-[1px]  border-[#C4C4C4] text-center">
-          <p>Add to Cart</p>
+          <p className='p-4 border-[1px] text-center border-t-[#C4C4C4]'>Add to Cart</p>
+         
           </div>
+        
+          
+        </div>
+        <div className='p-4 text-sm   '>
+          
+          <img className='w-full border-b-[1px]  rounded-sm border-[#C4C4C4]' src={Strawberry} alt="" />
+
+          
+          <div className="  border-[1px]  border-[#C4C4C4]  ">
+          <p className='pt-2 pl-2'>Strawberry</p>
+          <p className='px-2'>$20</p>
+          <p className='p-4 border-[1px] text-center border-t-[#C4C4C4]'>Add to Cart</p>
+         
           </div>
+        
+          
+        </div>
+        <div className='p-4 text-sm   '>
+          
+          <img className='w-full border-b-[1px]  rounded-sm border-[#C4C4C4]' src={Strawberry} alt="" />
+
+          
+          <div className="  border-[1px]  border-[#C4C4C4]  ">
+          <p className='pt-2 pl-2'>Strawberry</p>
+          <p className='px-2'>$20</p>
+          <p className='p-4 border-[1px] text-center border-t-[#C4C4C4]'>Add to Cart</p>
+         
+          </div>
+        
+          
+        </div>
+        <div className='p-4 text-sm   '>
+          
+          <img className='w-full border-b-[1px]  rounded-sm border-[#C4C4C4]' src={Strawberry} alt="" />
+
+          
+          <div className="  border-[1px]  border-[#C4C4C4]  ">
+          <p className='pt-2 pl-2'>Strawberry</p>
+          <p className='px-2'>$20</p>
+          <p className='p-4 border-[1px] text-center border-t-[#C4C4C4]'>Add to Cart</p>
+         
+          </div>
+        
+          
         </div>
       </div>
       

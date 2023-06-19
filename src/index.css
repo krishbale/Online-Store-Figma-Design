@@ -32,5 +32,5 @@
 
 
 .m400{
-    @apply mx-[400px] 
+    @apply mx-[25px]   2xl:mx-[400px] xl:mx-[200px] lg:mx-[100px] md:mx-[100px] sm:mx-[50px]  
 }

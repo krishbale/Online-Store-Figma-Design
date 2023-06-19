@@ -1,5 +1,8 @@
 import searhbar from '../assets/searchbar.png'
 import hamburger from "../assets/hamburger.svg"
+import wifi from '../assets/Wifi.png'
+import signal from '../assets/signal.png'
+import battery from '../assets/Battery.png'
 const MenuItems = ()=>{
     return(
         <ul className="hidden lg:flex items-center justify-evenly">
@@ -24,12 +27,21 @@ const MenuItems = ()=>{
 }
 const MobileBar = ()=>{
     return(
-        <div className="lg:hidden">
-            <p>date.0</p>
-            <p>wifi</p>
-            <p>batery</p>
-            <p>time</p>
-            <img src="" alt="" />
+        <div className=" p-4 m-4 flex items-center justify-between lg:hidden">
+            <div className="">
+                <p>1:11</p>
+            </div>
+            <div className="flex gap-10 ">
+                <div className="flex-1">
+                    <img src={signal} alt="signal" />
+                </div>
+                <div className="flex-1">
+                    <img src={wifi} alt="wifi" />
+                </div>
+                <div className="flex-1">
+                    <img src={battery} alt="battery"    />
+                </div>
+            </div>
 
         </div>    )
 }
@@ -63,11 +75,13 @@ const Navbar = () => {
 
        
         <div className="flex-1">
-        <div className="flex  ">
+        <div className="flex justify-between  ">
+            <div className="">
+            <h1 className="text-2xl lg:p-4 font-bold lg:text-3xl">TechAxis Online Store </h1>
 
-                <h1 className="p-4   font-bold text-3xl">TechAxis Online Store </h1>
-                <div className="lg:hidden">
-                <img src={hamburger} alt="hamburger" />
+            </div>
+            <div className="lg:hidden">
+            <img src={hamburger} alt="hamburger" />
             </div>
             </div>
             <MenuItems />
