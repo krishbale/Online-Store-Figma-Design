@@ -14,7 +14,7 @@ const Footer = () => {
               <img src={grouplogo} alt="logo" />
 
               </div>
-              <p className='text-2xl uppercase                      p-2'>Story world</p>
+              <p className='text-2xl uppercase   p-2'>Story world</p>
 
             </div>
 
@@ -25,8 +25,9 @@ const Footer = () => {
         </div>
        
        {/* div 2 */}
-    
-      <div className=" order-3 sm:order-3 lg:order-2 flex-1 flex flex-col items-center justify-between p-2 m-2">
+    <div className="flex order-3 sm:order-3 lg:order-2 ">
+
+         <div className=" flex-1 flex flex-col items-center justify-between p-2 m-2">
         <div className="text-xl">
           <p>Proudcts</p>
 
@@ -56,7 +57,7 @@ const Footer = () => {
       </div>
              {/* div 3 */}
 
-      <div className=" order-4 lg:order-3 sm:order-4 flex-1 flex flex-col items-center justify-between p-2 m-2 ">
+      <div className="  flex-1 flex flex-col items-center justify-between p-2 m-2 ">
         <div className="text-xl">
         <p>Resources</p>
         </div>
@@ -84,13 +85,15 @@ const Footer = () => {
         </div>
       
       </div>
+      </div>
+
              {/* div 4 */}
 
-      <div className="flex-1 order-2 lg:order-4 sm:order-2 p-2 m-2">
+      <div className="flex-1 order-2 lg:order-3 sm:order-2 p-2 m-2">
         <div className="">
           <p>Stay Up to date</p>
         </div>
-        <div className="md:flex">
+        <div className=" flex flex-col sm :flex-row ">
           <div className="p-2 m-2">
           <input className='border-none outline-none' type="text" placeholder='Enter your email' />
 
