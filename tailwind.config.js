@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('src/assets/bg.png')",
+        'image-overlay': "url('src/assets/Imageoverlay.png')",
+      }
+    },
   },
   plugins: [],
 }
