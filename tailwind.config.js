@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/bg.png')",
-        'image-overlay': "url('src/assets/Imageoverlay.png')",
+        'hero-pattern': "url('../src/assets/bg.png')",
+        'image-overlay': "url('../src/assets/Imageoverlay.png')",
       }
     },
   },
